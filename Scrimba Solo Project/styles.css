@@ -1,0 +1,90 @@
+body {
+    margin: 0; 
+    text-align: center; 
+}
+
+
+
+#header {
+    background-image: url("images/costa-main2.jpg");
+    background-size: cover; 
+    height: 500px; 
+    color: white;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    margin-bottom: -30px; 
+}
+
+
+.main-greeting {
+    margin-top: 175px; 
+    margin-bottom: 10px; 
+    background: #457B91; 
+    padding: 10px;
+    border-radius: 14px;
+}
+  .secondary-greeting {
+    margin: 0 0 30px 0; 
+    background: #1D3557; 
+    padding: 4px; 
+    border-radius: 14px;
+    width: 400px;
+  } 
+
+ .activities-container {
+    background: #F1FAEE; 
+    height: 315px; 
+ }
+  
+  .activity-header {
+    padding: 20px; 
+  }
+
+  .activity-box {
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center; 
+  }
+
+  .activity {
+    width: 250px; 
+  }
+
+ .first-img {
+    width: 100px; 
+    border-radius: 50%; 
+    border: 3px solid white; 
+
+ }
+
+
+.avatar {
+  width: 150px;
+  margin: 10px; 
+}
+
+.guide-container {
+  width: 500px;
+  margin: 50px auto 0px  auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: #ddebf8;
+  color: #2b2839;
+  border-bottom: 6px solid blue;
+}
+
+.border-blue {
+  border: 1px dotted blue;
+}
+
+.guide-description {
+  margin: 20px; 
+}
+
+
+.guide-blur {
+  width: 40px; 
+}
